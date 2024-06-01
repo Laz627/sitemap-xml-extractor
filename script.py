@@ -58,6 +58,7 @@ def save_to_excel(categorized_data, output_file):
 st.title("XML Sitemap Extractor Tool")
 
 st.write("""
+Created by: Brandon Lazovic
 ### Description
 This tool allows you to extract URLs from a sitemap.xml file and categorize them based on the first two subfolders in the URL slug. You can download the categorized URLs as an Excel spreadsheet.
 
